@@ -49,5 +49,4 @@ urllib3==1.26.14
 vercel==0.2.1
 Werkzeug==2.2.3
 wrapt==1.14.1
-freeglut3-dev
-libgtk2.0-dev
+pip==23.0.1
