@@ -24,7 +24,7 @@ def rede (nRed,nGreen,nBlue,gli,savi,mpri) :
     
     df2 = pd.DataFrame(array)
     
-    model = keras.models.load_model('models/teste_7_keras_nadam_11relu_linear_1200neur_Dropout_0.100000_100000epocs_patience_150.h5')
+    model = keras.models.load_model('models/model_teste_7_keras_nadam_11relu_linear_1200neur_Dropout_0.100000_100000epocs_patience_150.h5')
     
     return  model.predict(df2)
 
