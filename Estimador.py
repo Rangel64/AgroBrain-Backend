@@ -26,6 +26,7 @@ def rede (nRed,nGreen,nBlue,hn,sn,vn,gli,savi,mpri) :
     array = np.transpose(array)
     
     df2 = pd.DataFrame(array)
+    print(df2)
     
     model = keras.models.load_model('models/HSV_model_teste_4_keras_nadam_8selu_selu_350neur_Dropout_0.000000_100000epocs_patience_250.h5')
     
