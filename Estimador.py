@@ -38,9 +38,10 @@ def result(imageBytes):
     (nRed,nGreen,nBlue,hn,sn,vn,gli,savi,mpri) = IF().calculoIndicesRNA(image)
 
     result = rede(nRed,nGreen,nBlue,hn,sn,vn,gli,savi,mpri)
-    print('Massa estimada: ' + str(result[0][0]))
-    
-    return result[0][0]
+    resultCorrection =  result[0][0] - result[0][0]*0.174
+    print('Massa estimada bruta: ' + str(result[0][0]))
+    print('Massa estimada corrigida: ' + str(resultCorrection))
+    return resultCorrection
 
 
 

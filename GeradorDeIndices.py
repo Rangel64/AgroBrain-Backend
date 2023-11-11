@@ -11,7 +11,6 @@ class EstimadorDeIndicesInfraRed:
     
         return gli, savi, mpri
     
-    
     def calculoIndicesRNA(self,image):
         
         imageSHV = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
