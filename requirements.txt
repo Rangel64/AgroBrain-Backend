@@ -49,4 +49,4 @@ vercel==0.2.1
 Werkzeug==2.2.3
 wrapt==1.14.1
 pip==23.0.1
-gdown==4.6.4
+gdown==5.1.0
