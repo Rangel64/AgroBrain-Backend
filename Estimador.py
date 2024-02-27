@@ -28,7 +28,7 @@ def rede (nRed,nGreen,nBlue,hn,sn,vn,gli,savi,mpri) :
     df2 = pd.DataFrame(array)
     print(df2)
     
-    model = keras.models.load_model('models/model_teste_5.h5')
+    model = keras.models.load_model('models/model.h5')
     
     return  model.predict(df2)
 
